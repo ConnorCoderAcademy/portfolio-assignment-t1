@@ -1,0 +1,49 @@
+/*# sourceMappingURL=style.css.map */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 20vh;
+  }
+  
+  .nav-bar ul li {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 8px;
+  }
+  
+  #name {
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+  }
+  
+  #title {
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+  
+  main {
+    height: 70vh;
+    display: inline-block;
+  }
+
+  main #name {
+   position: absolute;
+   top: 40%;
+   margin-left: 10px;
+  }
+  
+  main #title {
+    position: absolute;
+    top: 50%;
+    margin-left: 10px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+  }/*# sourceMappingURL=style.css.map */
