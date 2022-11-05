@@ -112,4 +112,13 @@ body {
   height: 50px;
   bottom: -20px;
   position: relative;
+}
+
+.mainheading {
+  font-family: "Arimo", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 60;
+  color: white;
+  font-size: 45px;
+  margin-left: 20px;
 }/*# sourceMappingURL=main.css.map */
