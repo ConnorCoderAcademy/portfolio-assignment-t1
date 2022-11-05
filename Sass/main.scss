@@ -27,7 +27,7 @@ body    {
     width: 180px;
     height: 100%;
     left: -20px;
-    top: -10px;
+    top: -5px;
 }
 
 .nav-bar {
@@ -53,37 +53,11 @@ body    {
             margin: 5px 0;
         }
 
-        #home {
-            color: #293242;
-        }
     }
 }
 
 
-#name {
-    font-family: 'Arimo';
-    font-style: normal;
-    font-weight: 700;
-    color: white;
-    font-size: 50px;
-    position: relative;
-    top: 130px;
-    left: 20px;
-    
 
-}
-
-#title {
-    font-family: 'Arimo';
-    font-style: normal;
-    font-weight: 50;
-    color: white;
-    font-size: 30px;
-    position: relative;
-    top: 120px;
-    left: 20px;
-
-}
 
 #footer {
     position: absolute;
