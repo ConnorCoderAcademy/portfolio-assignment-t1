@@ -22,8 +22,30 @@
   position: relative;
   top: 80px;
   left: 30px;
+  display: flex;
 }
 
+#cursor {
+  background: blue;
+  line-height: 17px;
+  margin-left: 3px;
+  -webkit-animation: blink 0.8s infinite;
+  width: 7px;
+  height: 20px;
+  align-items: center;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background: #222;
+  }
+  50% {
+    background: white;
+  }
+  100% {
+    background: #222;
+  }
+}
 #about {
   color: #293242;
 }
