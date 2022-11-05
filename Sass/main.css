@@ -3,24 +3,24 @@
 }
 
 #name {
-  font-family: "Arimo";
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Arimo", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 60;
   color: white;
-  font-size: 50px;
+  font-size: 45px;
   position: relative;
-  top: 130px;
+  top: 150px;
   left: 20px;
 }
 
 #title {
-  font-family: "Arimo";
-  font-style: normal;
+  font-family: "Arimo", sans-serif;
+  font-family: "Cutive Mono", monospace;
   font-weight: 50;
   color: white;
-  font-size: 30px;
+  font-size: 23px;
   position: relative;
-  top: 120px;
+  top: 130px;
   left: 20px;
 }
 
