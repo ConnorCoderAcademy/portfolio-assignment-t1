@@ -94,11 +94,11 @@ section {
 }
 .page-container #text-container {
   height: auto;
-  width: 80vw;
+  width: 100vw;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  overflow: scroll;
+  overflow-y: scroll;
   justify-content: space-between;
   overflow-x: hidden;
   word-wrap: break-word;
@@ -111,6 +111,8 @@ section {
   font-size: 20px;
   position: relative;
   left: 20px;
+  padding-left: 50px;
+  padding-right: 60px;
 }
 .page-container #text-container #p4 {
   position: relative;
