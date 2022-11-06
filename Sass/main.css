@@ -55,17 +55,6 @@ section {
   color: #293242;
 }
 
-#about-mainheading {
-  font-family: "Arimo", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-weight: 60;
-  color: white;
-  font-size: 35px;
-  margin-left: 20px;
-  margin-bottom: 5px;
-  margin-top: 10px;
-}
-
 .page-container {
   background-color: transparent;
   border: 1px solid white;
@@ -73,6 +62,7 @@ section {
   width: 90vw;
   align-items: center;
   margin: 10px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
 }
@@ -96,7 +86,6 @@ section {
   height: auto;
   width: 100vw;
   display: flex;
-  align-items: centre;
   flex-direction: column;
   overflow-y: scroll;
   justify-content: space-between;
@@ -149,6 +138,60 @@ section {
 
 #skills {
   color: #293242;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.page-container {
+  background-color: transparent;
+  border: 1px solid white;
+  height: 45vh;
+  width: 90vw;
+  align-items: center;
+  margin: 10px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.page-container #text-container-skills {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  justify-content: space-between;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  align-items: center;
+}
+.page-container #html {
+  width: 50vw;
+  margin-top: 20px;
+}
+.page-container #html-description {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: "Arimo", sans-serif;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 50;
+  color: white;
+}
+.page-container #css {
+  width: 50vw;
+  margin-top: 20px;
+}
+.page-container #css-description {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: "Arimo", sans-serif;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 50;
+  color: white;
 }
 
 #projects {
@@ -246,6 +289,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 60;
   color: white;
-  font-size: 45px;
+  font-size: 35px;
   margin-left: 20px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,3 +1,64 @@
 #skills {
     color: #293242;
 }
+
+section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.page-container {
+    background-color: transparent;
+    border: 1px solid white;
+    height: 45vh;
+    width: 90vw;
+    align-items: center;
+    margin: 10px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+
+    #text-container-skills {
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        justify-content: space-between;
+        overflow-x: hidden;
+        word-wrap: break-word;
+        align-items: center;
+    }
+
+        #html {
+            width: 50vw;
+            margin-top: 20px;
+            }
+        #html-description {
+            text-align: center;
+            margin-left: 30px;
+            margin-right: 30px;
+            font-family: 'Arimo', sans-serif;
+            font-family: 'Cutive Mono', monospace;
+            font-weight: 50;
+            color: white;
+
+        }
+
+        #css {
+            width: 50vw;
+            margin-top: 20px;
+        }
+
+        #css-description {
+            text-align: center;
+            margin-left: 30px;
+            margin-right: 30px;
+            font-family: 'Arimo', sans-serif;
+            font-family: 'Cutive Mono', monospace;
+            font-weight: 50;
+            color: white;
+
+        }
+    }
