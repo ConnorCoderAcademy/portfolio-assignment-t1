@@ -56,7 +56,17 @@ section {
         justify-content: space-between;
         overflow-x: hidden;
         word-wrap: break-word;
+
+            #selfie {
+                height: auto;
+                width: 40vw;
+                position:relative;
+                left: 120px;
+                margin-top: 20px;
+                padding: 5px;
+                border: 2px solid white;
         
+            }
 
             p {
                 font-family: 'Arimo', sans-serif;
@@ -68,6 +78,11 @@ section {
                 left: 20px;
                 padding-left: 50px;
                 padding-right: 60px;
+
+            }
+
+            #p1 {
+                padding-top: 20px;
             }
 
             #p4 {

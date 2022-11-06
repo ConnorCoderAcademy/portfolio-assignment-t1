@@ -103,6 +103,15 @@ section {
   overflow-x: hidden;
   word-wrap: break-word;
 }
+.page-container #text-container #selfie {
+  height: auto;
+  width: 40vw;
+  position: relative;
+  left: 120px;
+  margin-top: 20px;
+  padding: 5px;
+  border: 2px solid white;
+}
 .page-container #text-container p {
   font-family: "Arimo", sans-serif;
   font-family: "Cutive Mono", monospace;
@@ -113,6 +122,9 @@ section {
   left: 20px;
   padding-left: 50px;
   padding-right: 60px;
+}
+.page-container #text-container #p1 {
+  padding-top: 20px;
 }
 .page-container #text-container #p4 {
   position: relative;
