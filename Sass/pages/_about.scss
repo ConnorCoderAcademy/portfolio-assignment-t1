@@ -1,3 +1,16 @@
+section {
+    display: flex;
+    justify-content: center
+}
 #about {
     color: #293242;
+}
+
+.text-container {
+    background-color: transparent;
+    border: 1px solid white;
+    height: 700px;
+    width: 350px;
+    justify-content: center;
+    margin: 10px;
 }

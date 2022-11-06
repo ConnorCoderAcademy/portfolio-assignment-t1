@@ -10,7 +10,7 @@
   font-size: 45px;
   position: relative;
   top: 100px;
-  left: 20px;
+  padding-left: 20px;
 }
 
 #title {
@@ -21,7 +21,7 @@
   font-size: 23px;
   position: relative;
   top: 80px;
-  left: 20px;
+  padding-left: 20px;
   display: flex;
 }
 
@@ -46,8 +46,22 @@
     background: #222;
   }
 }
+section {
+  display: flex;
+  justify-content: center;
+}
+
 #about {
   color: #293242;
+}
+
+.text-container {
+  background-color: transparent;
+  border: 1px solid white;
+  height: 700px;
+  width: 350px;
+  justify-content: center;
+  margin: 10px;
 }
 
 #skills {
@@ -68,11 +82,18 @@ html {
 
 body {
   height: 100%;
+  width: 100%;
   margin: 0px;
 }
 
 .site_header {
   display: flex;
+  background-color: #9da2ae;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  position: -webkit-sticky;
+  position: sticky;
   width: 100%;
   height: 30%;
   justify-content: space-between;
@@ -105,14 +126,15 @@ body {
 }
 
 #footer {
-  position: absolute;
+  position: fixed;
+  left: 0;
   bottom: 0px;
-  left: 0px;
-  width: 100%;
   height: 100px;
+  width: 100%;
   overflow: hidden;
   display: flex;
   justify-content: space-around;
+  background-color: #9da2ae;
 }
 
 #instagram {
