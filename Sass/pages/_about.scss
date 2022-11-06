@@ -50,7 +50,7 @@ section {
         height: auto;
         width: 100vw;
         display: flex;
-        align-items: flex-start;
+        align-items: centre;
         flex-direction: column;
         overflow-y: scroll;
         justify-content: space-between;
@@ -60,11 +60,11 @@ section {
             #selfie {
                 height: auto;
                 width: 40vw;
-                position:relative;
-                left: 120px;
                 margin-top: 20px;
                 padding: 5px;
                 border: 2px solid white;
+                margin-left: auto;
+                margin-right: auto;
         
             }
 
