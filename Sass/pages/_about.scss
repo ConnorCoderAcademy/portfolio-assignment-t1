@@ -54,7 +54,8 @@ section {
         flex-direction: column;
         overflow: scroll;
         justify-content: space-between;
-        overflow-x:hidden;
+        overflow-x: hidden;
+        word-wrap: break-word;
         
 
             p {

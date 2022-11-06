@@ -101,6 +101,7 @@ section {
   overflow: scroll;
   justify-content: space-between;
   overflow-x: hidden;
+  word-wrap: break-word;
 }
 .page-container #text-container p {
   font-family: "Arimo", sans-serif;
