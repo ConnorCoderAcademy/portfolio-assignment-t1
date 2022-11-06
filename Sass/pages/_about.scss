@@ -48,13 +48,13 @@ section {
         }
     #text-container {
         height: auto;
-        width: 300px;
+        width: 80vw;
         display: flex;
         align-items: flex-start;
         flex-direction: column;
         overflow: scroll;
         justify-content: space-between;
-        overflow-x: hidden;
+        overflow-x:hidden;
         
 
             p {

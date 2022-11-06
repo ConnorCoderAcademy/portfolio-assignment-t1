@@ -94,7 +94,7 @@ section {
 }
 .page-container #text-container {
   height: auto;
-  width: 300px;
+  width: 80vw;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
