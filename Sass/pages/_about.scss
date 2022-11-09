@@ -6,18 +6,6 @@ section {
     color: #293242;
 }
 
-
-.page-container {
-    background-color: transparent;
-    border: 1px solid white;
-    height: 45vh;
-    width: 90vw;
-    align-items: center;
-    margin: 10px;
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-
         #about-text-heading {
             
             color: white;
@@ -29,14 +17,7 @@ section {
             margin-bottom: 0;
         }
 
-        .line {
-            height: 10px;
-            width: 250px;
-            border-bottom: 0.25px solid white;
-            position: relative;
-            top: -5px;
 
-        }
     #text-container {
         height: auto;
         width: 100vw;
@@ -46,6 +27,7 @@ section {
         justify-content: space-between;
         overflow-x: hidden;
         word-wrap: break-word;
+    }
 
             #selfie {
                 height: auto;
@@ -55,7 +37,6 @@ section {
                 border: 2px solid white;
                 margin-left: auto;
                 margin-right: auto;
-        
             }
 
             p {
@@ -68,7 +49,6 @@ section {
                 left: 20px;
                 padding-left: 50px;
                 padding-right: 60px;
-
             }
 
             #p1 {
@@ -99,6 +79,3 @@ section {
                 text-decoration: underline;
 
             }
-    }
-
-}

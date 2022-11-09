@@ -54,7 +54,7 @@ body    {
             text-decoration: none;
             list-style-type: none;
             padding: 0;
-            color: WHITE;
+            color: white;
 
         }
 
@@ -64,6 +64,27 @@ body    {
 
     }
 }
+
+.page-container {
+    background-color: transparent;
+    border: 1px solid white;
+    height: 45vh;
+    width: 90vw;
+    align-items: center;
+    margin: 10px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+     height: 10px;
+    width: 75vw;
+    border-bottom: 0.25px solid white;
+    position: relative;
+    top: -5px;
+    margin-top: 5px;
+ }
 
 
 
@@ -102,7 +123,7 @@ body    {
 }
 
 .mainheading {
-
+    
     font-family: 'Arimo', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: 60;
