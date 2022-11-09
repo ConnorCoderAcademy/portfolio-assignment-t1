@@ -218,28 +218,49 @@ section {
   color: #293242;
 }
 
-.blog-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+.line {
+  position: relative;
+  margin-left: 20px;
+  margin-right: auto;
 }
 
-.div1 {
-  grid-area: 1/1/2/2;
+#article-1 {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  display: flex;
 }
 
-.div2 {
-  grid-area: 1/2/2/3;
+.article-heading {
+  font-family: "Arimo", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 60;
+  color: white;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.div3 {
-  grid-area: 2/1/3/2;
+section {
+  display: flex;
+  justify-content: center;
 }
 
-.div4 {
-  grid-area: 2/2/3/3;
+.text-container-blog {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  justify-content: space-between;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  align-items: center;
+}
+
+#page-end-break {
+  height: 10px;
+  width: auto;
+  background-color: aqua;
 }
 
 html {
@@ -263,6 +284,7 @@ body {
   width: 100%;
   height: 30%;
   justify-content: space-between;
+  z-index: 9999;
 }
 
 .mylogo {
@@ -322,6 +344,7 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: #9da2ae;
+  z-index: 9999;
 }
 
 #instagram {
