@@ -2,25 +2,8 @@
     color: #293242;
 }
 
-section {
-    display: flex;
-    justify-content: center;
-}
-
-    #text-container-skills {
-        height: auto;
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        overflow-y: scroll;
-        justify-content: space-between;
-        overflow-x: hidden;
-        word-wrap: break-word;
-        align-items: center;
-    }
-
         #html {
-            width: 50vw;
+            width: 50%;
             margin-top: 20px;
         }
 
@@ -35,8 +18,7 @@ section {
         }
 
         #css {
-            width: 50vw;
-            margin-top: 20px;
+            width: 50%;
         }
 
         #css-description {

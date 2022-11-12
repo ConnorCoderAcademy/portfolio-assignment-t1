@@ -2,17 +2,6 @@
     color: #293242;
 }
 
-#text-container-projects {
-    height: auto;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-    justify-content: center;
-    overflow-x: hidden;
-    word-wrap: break-word;
-    align-items: center;
-}
     #portfolio-description {
         color: white;
         font-family: 'Arimo', sans-serif;
@@ -33,4 +22,8 @@
         font-size: 30px;
         margin-top: -1px;
         text-align: center;
+    }
+
+    p {
+        padding-left: 10px;
     }
