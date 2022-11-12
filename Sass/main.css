@@ -33,8 +33,8 @@
   line-height: 17px;
   margin-left: 3px;
   -webkit-animation: blink 0.8s infinite;
-  width: 7px;
-  height: 20px;
+  width: 6px;
+  height: 25px;
   align-items: center;
 }
 
@@ -47,6 +47,41 @@
   }
   100% {
     background: #222;
+  }
+}
+@media only screen and (min-width: 601px) {
+  #name {
+    font-family: "Arimo", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 60;
+    color: white;
+    font-size: 4rem;
+    position: relative;
+    top: -20px;
+    margin-right: auto;
+    margin-left: 15%;
+    margin-top: auto;
+  }
+  #title {
+    font-family: "Arimo", sans-serif;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 50;
+    color: white;
+    font-size: 2.4rem;
+    position: relative;
+    display: flex;
+    bottom: 50px;
+    margin-right: auto;
+    margin-left: 15%;
+    margin-bottom: auto;
+  }
+  #cursor {
+    line-height: 17px;
+    margin-left: 3px;
+    -webkit-animation: blink 0.8s infinite;
+    width: 10px;
+    height: 2.4rem;
+    align-items: center;
   }
 }
 #about {
@@ -190,43 +225,32 @@ p {
   color: #293242;
 }
 
-.line {
-  position: relative;
-  margin-left: 20px;
-  margin-right: auto;
+#marcus-aurelius {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: right;
+  padding-left: 5px;
 }
 
-.article-heading {
+#blog-section {
+  width: 90%;
+}
+
+p {
+  font-size: 1rem;
+}
+
+#blog-section-heading {
   font-family: "Arimo", sans-serif;
   font-family: "Roboto", sans-serif;
   font-weight: 60;
   color: white;
-  font-size: 20px;
-  margin-left: auto;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  position: relative;
   margin-right: auto;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-}
-
-.text-container-blog {
-  height: auto;
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  overflow-y: scroll;
-  justify-content: space-between;
-  overflow-x: hidden;
-  word-wrap: break-word;
-  align-items: center;
-}
-
-#page-end-break {
-  height: 10px;
-  width: auto;
-  background-color: aqua;
+  left: 2.5%;
 }
 
 html {
@@ -359,4 +383,57 @@ main {
   position: relative;
   margin-right: auto;
   left: 20px;
+}
+
+@media only screen and (min-width: 601px) {
+  .nav-bar {
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 100;
+    right: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 60%;
+  }
+  .nav-bar ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .nav-bar a {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    color: white;
+  }
+  .nav-bar li {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-size: 1.5rem;
+  }
+  .mylogo {
+    position: relative;
+    width: auto;
+    height: 150px;
+    left: 50px;
+  }
+  #instagram {
+    width: 80px;
+    height: auto;
+    bottom: 10px;
+    position: relative;
+  }
+  #linkedin {
+    width: 80px;
+    height: auto;
+    bottom: 10px;
+    position: relative;
+  }
+  #github {
+    width: 80px;
+    height: auto;
+    bottom: 10px;
+    position: relative;
+  }
 }/*# sourceMappingURL=main.css.map */
