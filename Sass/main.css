@@ -424,6 +424,12 @@ main {
   margin: 5px 0;
 }
 
+.nav-bar ul a li:hover {
+  color: grey;
+  top: -2px;
+  transition: 1s;
+}
+
 .page-container {
   background-color: transparent;
   border: 1px solid white;
@@ -478,6 +484,11 @@ main {
   height: 50px;
   bottom: -20px;
   position: relative;
+}
+
+#footer img:hover {
+  height: 100px;
+  width: auto;
 }
 
 .mainheading {
