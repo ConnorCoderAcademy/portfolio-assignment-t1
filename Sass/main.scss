@@ -5,7 +5,7 @@
 @import 'pages/blog';
 
 html {
-    background-color: #9da2ae;
+    background-color: #9DA9C8;
     height: 100vh;
     width: 100vw;
 }
@@ -16,7 +16,9 @@ body    {
     margin: 0px;
 
 }
-
+p {
+    font-size: 1.5rem;
+}
 main {
     height: 70%;
     display: flex;
@@ -30,7 +32,7 @@ main {
 
     .site_header {
         display: flex;
-        background-color: #9da2ae;
+        background-color:#9DA9C8;
         top: 0;
         bottom: 0;
         left: 0;
@@ -92,7 +94,7 @@ main {
 
 .line {
     height: 10px;
-    width: 75vw;
+    width: 80%;
     border-bottom: 0.25px solid white;
     position: relative;
     top: -5px;
@@ -109,7 +111,7 @@ main {
     overflow: hidden; 
     display: flex;
     justify-content: space-around; 
-    background-color: #9da2ae;
+    background-color: #9DA9C8;
     z-index: 9999;
  }
 
@@ -139,23 +141,20 @@ main {
     font-family: 'Roboto', sans-serif;
     font-weight: 60;
     color: white;
-    font-size: 35px;
+    font-size: 2.5;
     margin-bottom: 10px;
     position: relative;
     margin-right: auto;
     left: 20px;
-
 }
 
 @media only screen and (min-width: 601px) {
-
-    
 
     .nav-bar {
         font-family: 'Arimo';
         font-style: normal;
         font-weight: 100;
-        right: 100px;
+        right: 35px;
         height: 100%;
         display: flex;
         align-items: center;
@@ -186,8 +185,7 @@ main {
         position: relative;
         width: auto;
         height: 150px;
-        left: 50px;
-        
+        left: 5px;
     }
 
     #instagram {
@@ -210,5 +208,72 @@ main {
         bottom: 10px;
         position: relative;
     }
+
+    .site_header {
+        display: flex;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        position: sticky;
+        width: 100%;
+        height: 15%;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 9999;   
+    }
+
+    .mainheading {
+        font-family: 'Arimo', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 60;
+        color: white;
+        font-size: 2.5;
+        margin-bottom: 10px;
+        position: relative;
+        margin-right: auto;
+        left: 38px;
+    }
     
+    p {
+        font-size: 2rem;
+    }
+    
+}
+
+@media (min-width:1025px) {
+    .mainheading {
+        font-size: 3rem;
+    }
+    #instagram {
+        width: 50px;
+        height: auto;
+        bottom: 10px;
+        position: relative;
+    }
+    
+    #linkedin {
+        width: 50px;
+        height: auto;
+        bottom: 10px;
+        position: relative;
+    }
+    
+    #github {
+        width: 50px;
+        height: auto;
+        bottom: 10px;
+        position: relative;
+    }
+
+    .mylogo {
+        position: relative;
+        width: auto;
+        height: 150px;
+        top: 10px;
+    }
+
+    .page-container {
+        width: 50%;
+    }
+
 }

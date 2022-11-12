@@ -18,7 +18,7 @@
         }
 
         #css {
-            width: 50%;
+            width: 40%;
         }
 
         #css-description {
@@ -30,3 +30,8 @@
             font-weight: 50;
             color: white;
         }
+    @media only screen and (min-width: 601px) {
+        h2 {
+            font-size: 2rem;
+        }
+    }
