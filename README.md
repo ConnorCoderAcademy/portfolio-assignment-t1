@@ -97,40 +97,40 @@ Blog Page:
 
 ### Tablet View ー
 
-![home page tablet](./photo/home-tablet.png)
+![home page tablet](./docs/home-tablet.png)
 <br>
 About Page:
 
-![about page tablet](./photo/about-tablet.png)
+![about page tablet](./docs/about-tablet.png)
 <br>
 Skills Page:
 
-![skills page tablet](./photo/skills-tablet.png)
+![skills page tablet](./docs/skills-tablet.png)
 <br>
 Projects Page:
 
-![projects page tablet](./photo/projects-tablet.png)
+![projects page tablet](./docs/projects-tablet.png)
 <br>
 Blog Page:
 
-![blog page tablet](./photo/blog-tablet.png)
+![blog page tablet](./docs/blog-tablet.png)
 
 ### Phone View ー
 
-![home page phone](./photo/home-phone.png)
+![home page phone](./docs/home-phone.png)
 <br>
 About Page:
 
-![about page phone](./photo/about-phone.png)
+![about page phone](./docs/about-phone.png)
 <br>
 Skills Page:
 
-![skills page phone](./photo/skills-phone.png)
+![skills page phone](./docs/skills-phone.png)
 <br>
 Projects Page:
 
-![projects page phone](./photo/projects-phone.png)
+![projects page phone](./docs/projects-phone.png)
 <br>
 Blog Page:
 
-![blog page phone](./photo/blog-phone.png)
+![blog page phone](./docs/blog-phone.png)
