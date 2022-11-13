@@ -166,14 +166,27 @@ p {
   padding-left: 20px;
 }
 
+#email {
+  font-size: 1.2rem;
+  color: blue;
+}
+
 @media only screen and (min-width: 601px) {
   p {
     font-size: 2rem;
+  }
+  #email {
+    font-size: 2rem;
+    color: blue;
   }
 }
 @media only screen and (min-width: 1025px) {
   p {
     font-size: 1rem;
+  }
+  #email {
+    font-size: 1.5rem;
+    color: blue;
   }
 }
 #skills {
