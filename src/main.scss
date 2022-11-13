@@ -1,0 +1,291 @@
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/skills';
+@import 'pages/projects';
+@import 'pages/blog';
+
+html {
+    background-color: #9DA9C8;
+    height: 100vh;
+    width: 100vw;
+}
+
+body    {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+
+}
+
+p {
+    font-size: 1.5rem;
+}
+main {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow-y: scroll;
+}
+
+    .site_header {
+        display: flex;
+        background-color:#9DA9C8;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        position: sticky;
+        width: 100%;
+        height: 20%;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 9999;   
+    }
+
+
+
+.mylogo {
+    position: relative;
+    width: auto;
+    height: 150px;
+    left: -20px;
+}
+
+.nav-bar {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 100;
+    display: flex;
+    position: relative;
+    right: 10px;
+    height: 100%;
+
+
+    ul { 
+        a {
+            text-decoration: none;
+            list-style-type: none;
+            padding: 0;
+            color: white;
+
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+    }
+}
+
+.nav-bar ul a li:hover {
+    color: grey;
+    top: -2px;
+    transition: 1s;
+}
+
+.page-container {
+    background-color: transparent;
+    border: 1px solid white;
+    height: 90%;
+    width: 90%;
+    align-items: center;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.line {
+    height: 10px;
+    width: 80%;
+    border-bottom: 0.25px solid white;
+    position: relative;
+    top: -5px;
+    margin-top: 5px;
+ }
+
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    height: 10%;
+    width: 100%;
+    overflow: hidden; 
+    display: flex;
+    justify-content: space-around; 
+    background-color: #9DA9C8;
+    z-index: 9999;
+ }
+
+#instagram {
+    width: 50px;
+    height: 50px;
+    bottom: -20px;
+    position: relative;
+}
+
+#linkedin {
+    width: 50px;
+    height: 50px;
+    bottom: -20px;
+    position: relative;
+}
+
+#github {
+    width: 50px;
+    height: 50px;
+    bottom: -20px;
+    position: relative;
+}
+
+#footer img:hover {
+    height: 100px;
+    width: auto;
+}
+
+.mainheading {
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 60;
+    color: white;
+    font-size: 2.5;
+    margin-bottom: 10px;
+    position: relative;
+    margin-right: auto;
+    left: 20px;
+}
+
+@media only screen and (min-width: 601px) {
+
+    .nav-bar {
+        font-family: 'Arimo';
+        font-style: normal;
+        font-weight: 100;
+        right: 35px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        width: 60%;
+    
+    
+        ul { 
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+        }
+            a {
+                text-decoration: none;
+                list-style-type: none;
+                padding: 0;
+                color: white;
+            }
+    
+            li {
+                display: inline-block;
+                font-size: 1.2rem;
+                font-size: 1.5rem;
+            }
+    
+        }
+
+    .mylogo {
+        position: relative;
+        width: auto;
+        height: 150px;
+        left: 5px;
+    }
+
+    #instagram {
+        width: 80px;
+        height: auto;
+        bottom: 10px;
+        position: relative;
+    }
+    
+    #linkedin {
+        width: 80px;
+        height: auto;
+        bottom: 10px;
+        position: relative;
+    }
+    
+    #github {
+        width: 80px;
+        height: auto;
+        bottom: 10px;
+        position: relative;
+    }
+
+    .site_header {
+        display: flex;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        position: sticky;
+        width: 100%;
+        height: 15%;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 9999;   
+    }
+
+    .mainheading {
+        font-family: 'Arimo', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 60;
+        color: white;
+        font-size: 2.5;
+        margin-bottom: 10px;
+        position: relative;
+        margin-right: auto;
+        left: 38px;
+    }
+    
+    p {
+        font-size: 2rem;
+    }
+    
+}
+
+@media (min-width:1025px) {
+    .mainheading {
+        font-size: 3rem;
+    }
+    #instagram {
+        width: 50px;
+        height: auto;
+        bottom: 10px;
+        position: relative;
+    }
+    
+    #linkedin {
+        width: 50px;
+        height: auto;
+        bottom: 10px;
+        position: relative;
+    }
+    
+    #github {
+        width: 50px;
+        height: auto;
+        bottom: 10px;
+        position: relative;
+    }
+
+    .mylogo {
+        position: relative;
+        width: auto;
+        height: 150px;
+        top: 10px;
+    }
+
+    .page-container {
+        width: 50%;
+    }
+
+}

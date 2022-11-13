@@ -1,0 +1,80 @@
+
+#about {
+    color: #293242;
+}
+
+        .about-text-heading {
+            color: white;
+            font-family: 'Arimo', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 60;
+            color: white;
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+
+
+    #text-container {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        justify-content: space-between;
+        overflow-x: hidden;
+        word-wrap: break-word;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+            .about-photo {
+                height: auto;
+                width: 80%;
+                margin-top: 20px;
+                padding: 5px;
+                border: 2px solid white;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            p {
+                font-family: 'Arimo', sans-serif;
+                font-family: 'Cutive Mono', monospace;
+                font-weight: 50;
+                color: white;
+                font-size: 20px;
+                position: relative;
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+
+    #email {
+        font-size: 1.2rem;
+        color: blue;
+    }
+
+            
+
+@media only screen and (min-width: 601px) {
+    p {
+        font-size: 2rem;
+    }
+
+    #email {
+        font-size: 2rem;
+        color: blue;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    p {
+        font-size: 1rem;
+    }
+
+    #email {
+        font-size: 1.5rem;
+        color: blue;
+    }
+}
+

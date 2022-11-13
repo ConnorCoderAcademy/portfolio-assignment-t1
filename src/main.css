@@ -1,0 +1,652 @@
+#home {
+  color: #293242;
+}
+
+#name {
+  font-family: "Arimo", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 60;
+  color: white;
+  font-size: 2.8rem;
+  padding-left: 20px;
+  position: relative;
+  top: -20px;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+#heading-container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#title {
+  font-family: "Arimo", sans-serif;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 50;
+  color: white;
+  font-size: 1.5rem;
+  position: relative;
+  padding-left: 20px;
+  display: flex;
+  bottom: 50px;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+#cursor {
+  line-height: 17px;
+  margin-left: 3px;
+  -webkit-animation: blink 0.8s infinite;
+  width: 6px;
+  height: 25px;
+  align-items: center;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background: #222;
+  }
+  50% {
+    background: white;
+  }
+  100% {
+    background: #222;
+  }
+}
+@media only screen and (min-width: 601px) {
+  #name {
+    font-family: "Arimo", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 60;
+    color: white;
+    font-size: 4rem;
+    position: relative;
+    top: -20px;
+    margin-right: auto;
+    margin-top: auto;
+    left: 90px;
+  }
+  #title {
+    font-family: "Arimo", sans-serif;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 50;
+    color: white;
+    font-size: 2.4rem;
+    position: relative;
+    display: flex;
+    bottom: 50px;
+    margin-right: auto;
+    left: 90px;
+    margin-bottom: auto;
+  }
+  #cursor {
+    line-height: 17px;
+    margin-left: 3px;
+    -webkit-animation: blink 0.8s infinite;
+    width: 10px;
+    height: 2.4rem;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  #name {
+    font-family: "Arimo", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 60;
+    color: white;
+    font-size: 4rem;
+    position: relative;
+    float: left;
+    top: -20px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-left: 10%;
+  }
+  #title {
+    font-family: "Arimo", sans-serif;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 50;
+    color: white;
+    font-size: 2.4rem;
+    position: relative;
+    display: flex;
+    bottom: 50px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+  }
+}
+#about {
+  color: #293242;
+}
+
+.about-text-heading {
+  color: white;
+  font-family: "Arimo", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 60;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+#text-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  justify-content: space-between;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.about-photo {
+  height: auto;
+  width: 80%;
+  margin-top: 20px;
+  padding: 5px;
+  border: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: "Arimo", sans-serif;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 50;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#email {
+  font-size: 1.2rem;
+  color: blue;
+}
+
+@media only screen and (min-width: 601px) {
+  p {
+    font-size: 2rem;
+  }
+  #email {
+    font-size: 2rem;
+    color: blue;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  p {
+    font-size: 1rem;
+  }
+  #email {
+    font-size: 1.5rem;
+    color: blue;
+  }
+}
+#skills {
+  color: #293242;
+}
+
+#html {
+  width: 50%;
+  margin-top: 20px;
+}
+
+#html-description {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: "Arimo", sans-serif;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 50;
+  color: white;
+}
+
+#css {
+  width: 40%;
+}
+
+#css-description {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: "Arimo", sans-serif;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 50;
+  color: white;
+}
+
+@media only screen and (min-width: 601px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+#projects {
+  color: #293242;
+}
+
+#portfolio-description {
+  color: white;
+  font-family: "Arimo", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 60;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#portfolio-description-continued {
+  color: white;
+  font-family: "Arimo", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 60;
+  color: white;
+  font-size: 30px;
+  margin-top: -1px;
+  text-align: center;
+}
+
+#portfolio-link {
+  text-decoration: underline;
+  color: white;
+}
+
+#text-container-projects {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+#blog {
+  color: #293242;
+}
+
+#mainheading-blog {
+  font-family: "Arimo", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 60;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 10px;
+  position: relative;
+  margin-right: auto;
+  left: 20px;
+}
+
+.blog-photo {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#blog-section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-section-heading {
+  font-family: "Arimo", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 60;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.blog-text {
+  font-size: 1rem;
+}
+
+ol li {
+  font-family: "Arimo", sans-serif;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 50;
+  color: white;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 601px) {
+  .blog-text {
+    font-size: 1.5rem;
+  }
+  ol li {
+    font-family: "Arimo", sans-serif;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 50;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 50px;
+  }
+  #mainheading-blog {
+    font-family: "Arimo", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 60;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-right: auto;
+    left: 43px;
+  }
+  .blog-section-heading {
+    font-family: "Arimo", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 60;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  #blog-section {
+    display: inline-block;
+    width: 90%;
+  }
+  .blog-photo {
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+    margin-left: 7px;
+  }
+  .blog-text {
+    font-size: 1.25rem;
+  }
+  #mainheading-blog {
+    left: 70px;
+  }
+  .blog-section-heading {
+    margin-top: 5%;
+    font-family: "Arimo", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 60;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    position: relative;
+    margin-right: auto;
+    left: 1%;
+  }
+  ol li {
+    font-family: "Arimo", sans-serif;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 50;
+    color: white;
+    font-size: 1.25rem;
+    margin-left: 50px;
+  }
+}
+html {
+  background-color: #9DA9C8;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+main {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  overflow-y: scroll;
+}
+
+.site_header {
+  display: flex;
+  background-color: #9DA9C8;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  height: 20%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+}
+
+.mylogo {
+  position: relative;
+  width: auto;
+  height: 150px;
+  left: -20px;
+}
+
+.nav-bar {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 100;
+  display: flex;
+  position: relative;
+  right: 10px;
+  height: 100%;
+}
+.nav-bar ul a {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+.nav-bar ul li {
+  margin: 5px 0;
+}
+
+.nav-bar ul a li:hover {
+  color: grey;
+  top: -2px;
+  transition: 1s;
+}
+
+.page-container {
+  background-color: transparent;
+  border: 1px solid white;
+  height: 90%;
+  width: 90%;
+  align-items: center;
+  margin: 1px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.line {
+  height: 10px;
+  width: 80%;
+  border-bottom: 0.25px solid white;
+  position: relative;
+  top: -5px;
+  margin-top: 5px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  height: 10%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  background-color: #9DA9C8;
+  z-index: 9999;
+}
+
+#instagram {
+  width: 50px;
+  height: 50px;
+  bottom: -20px;
+  position: relative;
+}
+
+#linkedin {
+  width: 50px;
+  height: 50px;
+  bottom: -20px;
+  position: relative;
+}
+
+#github {
+  width: 50px;
+  height: 50px;
+  bottom: -20px;
+  position: relative;
+}
+
+#footer img:hover {
+  height: 100px;
+  width: auto;
+}
+
+.mainheading {
+  font-family: "Arimo", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 60;
+  color: white;
+  font-size: 2.5;
+  margin-bottom: 10px;
+  position: relative;
+  margin-right: auto;
+  left: 20px;
+}
+
+@media only screen and (min-width: 601px) {
+  .nav-bar {
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 100;
+    right: 35px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 60%;
+  }
+  .nav-bar ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .nav-bar a {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    color: white;
+  }
+  .nav-bar li {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-size: 1.5rem;
+  }
+  .mylogo {
+    position: relative;
+    width: auto;
+    height: 150px;
+    left: 5px;
+  }
+  #instagram {
+    width: 80px;
+    height: auto;
+    bottom: 10px;
+    position: relative;
+  }
+  #linkedin {
+    width: 80px;
+    height: auto;
+    bottom: 10px;
+    position: relative;
+  }
+  #github {
+    width: 80px;
+    height: auto;
+    bottom: 10px;
+    position: relative;
+  }
+  .site_header {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    height: 15%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+  }
+  .mainheading {
+    font-family: "Arimo", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 60;
+    color: white;
+    font-size: 2.5;
+    margin-bottom: 10px;
+    position: relative;
+    margin-right: auto;
+    left: 38px;
+  }
+  p {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1025px) {
+  .mainheading {
+    font-size: 3rem;
+  }
+  #instagram {
+    width: 50px;
+    height: auto;
+    bottom: 10px;
+    position: relative;
+  }
+  #linkedin {
+    width: 50px;
+    height: auto;
+    bottom: 10px;
+    position: relative;
+  }
+  #github {
+    width: 50px;
+    height: auto;
+    bottom: 10px;
+    position: relative;
+  }
+  .mylogo {
+    position: relative;
+    width: auto;
+    height: 150px;
+    top: 10px;
+  }
+  .page-container {
+    width: 50%;
+  }
+}/*# sourceMappingURL=main.css.map */

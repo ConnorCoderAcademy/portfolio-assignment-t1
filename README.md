@@ -77,23 +77,23 @@ I incorprated a variety of features into my website:
 
 Home Page:
 
-![home page](./photo/home.png)
+![home page](./docs/home.png)
 <br>
 About Page:
 
-![about page](./photo/about.png)
+![about page](./docs/about.png)
 <br>
 Skills Page:
 
-![skills page](./photo/skills.png)
+![skills page](./docs/skills.png)
 <br>
 Projects Page:
 
-![projects page](./photo/projects.png)
+![projects page](./docs/projects.png)
 <br>
 Blog Page:
 
-![blog page](./photo/blog.png)
+![blog page](./docs/blog.png)
 
 ### Tablet View ー
 
