@@ -3,7 +3,7 @@
     color: #293242;
 }
 
-        #about-text-heading {
+        .about-text-heading {
             color: white;
             font-family: 'Arimo', sans-serif;
             font-family: 'Roboto', sans-serif;
@@ -23,9 +23,12 @@
         justify-content: space-between;
         overflow-x: hidden;
         word-wrap: break-word;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
-            #selfie {
+            .about-photo {
                 height: auto;
                 width: 50%;
                 margin-top: 20px;
@@ -46,60 +49,17 @@
                 padding-left: 20px;
             }
 
-            #p1 {
-                padding-top: 10px;
-                margin-left: 25px
-            }
-
-            #p2 {
-                margin-left: 25px;
-                margin-right: 25px;
-            }
-
-            #p3 {
-                margin-left: 25px;
-                margin-right: 25px
-            }
-
-
-            #p4 {
-                position: relative;
-                top: -20px;
-                color: blue;
-                font-size: 15px;
-                margin-left: 25px;
-                margin-right: 25px;
-            }
-
-            #p5 {
-                position:relative;
-                top: -30px;
-                margin-left: 25px;
-                margin-right: 25px
-            }
-
-            #p6 {
-                position:relative;
-                top: -60px;
-                color: blue;
-                margin-left: 25px;
-                margin-right: 25px
-            }
-
-            #p7 {
-                position:relative;
-                top: -65px;
-                text-decoration: underline;
-                margin-left: 25px;
-                margin-right: 25px
-
-            }
+            
 
 @media only screen and (min-width: 601px) {
-    #p4 {
+    p {
         font-size: 2rem;
     }
 }
 
 @media only screen and (min-width: 1025px) {
+    p {
+        font-size: 1rem;
+    }
 }
+
